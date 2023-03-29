@@ -4,7 +4,6 @@ function fToC(fahrenheit) {
   return fToCel;
 }
 function kToC(kelvin) {
-  const kTemp = kelvin;
   const kToCel = kelvin - 273.15;
   return kToCel.toFixed(2);
 }
